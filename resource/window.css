@@ -1,0 +1,164 @@
+:root {
+	--COLOR_PORCELAIN: #F5F6F7;
+	--COLOR_PORCELAIN2: #F6F7F8;
+	--COLOR_IRON: #E3E4E5;
+	--COLOR_IRON2: #DADBDC;
+	--COLOR_DENIM: #1979CA;
+	--COLOR_SELAGO: #EDF4FC;
+	--COLOR_ANAKIWA: #A8D2FD;
+	--COLOR_REGENT_GRAY: #8492A6;
+}
+
+* {
+	 user-select: none;
+}
+
+html {
+	font-size: 0.813em;
+}
+
+.tab {
+	position: relative;
+	padding-top: var(--SIZE_XXS);
+	padding-bottom: var(--SIZE_XXS);
+	padding-left: var(--SIZE_MEDIUM);
+	padding-right: var(--SIZE_MEDIUM);
+	border-color: transparent;
+	border-width: 1px 1px 0px 1px;
+	border-style: solid;
+}
+
+.button {
+	cursor: default;
+}
+
+.tab:hover {
+	border-color: var(--COLOR_IRON2);
+}
+
+.tab.active::after {
+	content: "";
+	position: absolute;
+	background-color: #f5f6f7;
+	width: 100%;
+	height: 1px;
+	left: 0;
+	bottom: -1px;
+}
+
+.tab-content {
+	border-color: var(--COLOR_IRON2);
+	border-width: 1px 0 0 0 ;
+	border-style: solid;
+}
+
+.tab.active {
+	background-color: var(--COLOR_PORCELAIN);
+	border-color: var(--COLOR_IRON2);
+}
+
+.menu.active {
+	width: 40vw;
+}
+
+button.active {
+	border-color: red;
+}
+
+canvas {
+	background-color: white;
+	box-shadow: 5px 5px 3px #80808066;
+}
+
+.vertical-separator {
+	background: var(--COLOR_IRON);
+	width: 1px;
+	height: 100%;
+}
+
+.horizontal-separator {
+	background: var(--COLOR_IRON);
+	width: 100%;
+	height: 1px;
+}
+
+/* .footer {
+	border-top:1px solid var(--COLOR_IRON2);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+ */
+
+.gridlines {
+	/* https://codepen.io/jasonadelia/pen/DnrAe */
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-image:
+	linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent),
+	linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent);
+	pointer-events: none;
+	height:100%;
+	background-size:50px 50px;
+}
+
+.background-color-porcelain {
+	background-color: var(--COLOR_PORCELAIN)
+}
+
+.background-color-porcelain2 {
+	background-color: var(--COLOR_PORCELAIN2)
+}
+
+.background-color-iron {
+	background-color: var(--COLOR_IRON)
+}
+
+.background-color-denim {
+	background-color: var(--COLOR_DENIM)
+}
+
+.background-color-white {
+	background-color: white;
+}
+
+.border-color-iron2 {
+	border-color: var(--COLOR_IRON2);
+}
+
+.border-color-regent-gray {
+	border-color: var(--COLOR_REGENT_GRAY);
+}
+
+.border-color-black {
+	border-color: black;
+}
+
+.hover-border-color-iron2:hover {
+	border-color: var(--COLOR_IRON2);
+}
+
+.hover-border-color-anakiwa:hover {
+	border-color: var(--COLOR_ANAKIWA);
+}
+
+.hover-border-width-1:hover {
+	border-width: 1px;
+}
+
+.hover-border-style-solid:hover {
+	border-style: solid;
+}
+
+.hover-background-color-selago:hover {
+	background-color: var(--COLOR_SELAGO);
+}
+
+.color-white {
+	color: white;
+}
+
+.color-black {
+	color: black;
+}

@@ -1,0 +1,9 @@
+[submodule "lib/userinterface.js"]
+	path = lib/userinterface.js
+	url = https://github.com/thoughtsunificator/userinterface.js
+[submodule "lib/css-generics"]
+	path = lib/css-generics
+	url = https://github.com/thoughtsunificator/css-generics
+[submodule "lib/userinterface.js-collection"]
+	path = lib/userinterface.js-collection
+	url = https://github.com/thoughtsunificator/userinterface.js-collection

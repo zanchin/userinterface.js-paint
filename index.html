@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ms_paint</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="./resource/image/favicon.png" type="image/png" />
+	<link rel="stylesheet" href="./lib/css-generics/import.css">
+	<link rel="stylesheet" href="./lib/userinterface.js-collection/resource/resizable.css">
+	<link rel="stylesheet" href="./resource/window.css">
+	<script src="./lib/userinterface.js/src/userinterface.js"></script>
+	<script>
+		ms_paint = {}
+		UserInterface.DEBUG = true
+	</script>
+
+	<script src="./lib/userinterface.js-collection/userinterface/button.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/input.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/label_radio.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/label_checkbox.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/input_color.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/input_file.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/select.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/tab.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/resizable.js"></script>
+	<script src="./lib/userinterface.js-collection/userinterface/resizable-indicator.js"></script>
+
+
+	<script src="./src/object/paint.js"></script>
+
+	<script src="./data/tabs.js"></script>
+	<script src="./data/menus.js"></script>
+
+	<script src="./src/userinterface/window.js"></script>
+	<script src="./src/userinterface/menu.js"></script>
+	<script src="./src/userinterface/menu_link.js"></script>
+	<script src="./src/userinterface/titlebar.js"></script>
+	<script src="./src/userinterface/toolbox.js"></script>
+	<script src="./src/userinterface/toolbar.js"></script>
+	<script src="./src/userinterface/toolboxes.js"></script>
+	<script src="./src/userinterface/canvas.js"></script>
+	<script src="./src/userinterface/gridlines.js"></script>
+	<script src="./src/userinterface/statusbar.js"></script>
+	<script src="./src/userinterface/workspace.js"></script>
+</head>
+<body>
+	<noscript>
+		This feature requires JavaScript to be enabled.
+	</noscript>
+	<script>
+		UserInterface.runModel("window", {parentNode: document.body})
+	</script>
+</body>
+</html>
