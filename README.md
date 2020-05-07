@@ -1,3 +1,3 @@
-# ms_paint
+# userinterface.js-paint
 
-Online painting tool inspired by windows 7 paint.
+Web based painting tool inspired by windows 7 paint.
