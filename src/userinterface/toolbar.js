@@ -41,7 +41,7 @@ UserInterface.bind("toolbar", async function(element, paint) {
 		await UserInterface.runModel("menu", {parentNode: menusNode, bindingArgs: [paint, menu], data: menu})
 	}
 	for(const tab of tabs) {
-		await UserInterface.runModel("collection.tab", {parentNode: tabsNode, bindingArgs: [paint, { action: "tab set", value: tab.name }], data: tab})
+		await UserInterface.runModel("collection.tab", {parentNode: tabsNode, bindingArgs: [paint, { action: "tab set", name: tab.name }], data: { className: "tab", text: tab.name }})
 		await UserInterface.runModel("toolboxes", {parentNode: tabContentNode, bindingArgs: [paint, tab], data: tab})
 	}
 
