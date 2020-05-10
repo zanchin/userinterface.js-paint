@@ -14,8 +14,8 @@ And... You're set! Now you can start building your app. Enjoy!
 
 ### Live reloading
 
-npm install
-npm start
+- npm install
+- npm start
 
 ### Local
 
