@@ -15,7 +15,7 @@
 		"type": "git",
 		"url": "git+https://github.com/thoughtsunificator/userinterface.js-paint.git"
 	},
-	"author": "thoughtsunificator",
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/thoughtsunificator/userinterface.js-paint/issues"
