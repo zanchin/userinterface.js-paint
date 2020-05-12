@@ -22,7 +22,8 @@
 	},
 	"homepage": "https://github.com/thoughtsunificator/userinterface.js-paint#readme",
 	"devDependencies": {
-		"browser-sync": "^2.26.7"
+		"browser-sync": "^2.26.7",
+		"eslint": "^7.0.0"
 	},
 	"dependencies": {},
 	"keywords": [
